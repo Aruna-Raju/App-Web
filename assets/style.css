@@ -1,0 +1,117 @@
+body{
+	font-family: "Noto Sans", sans-serif;
+	font-size: 15px;
+	background-color: #F2F2F2;
+}
+
+header{
+	background-color: #fff;
+}
+
+main{
+	background-color: #F2F2F2;
+	margin-top: 150px;
+	margin-bottom: 140px;
+}
+
+footer{
+	background-color: #fff;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  text-decoration: none;
+  color:#B28707;
+}
+
+
+
+.collapse .navbar-nav .nav-item{
+	border-left: 1px solid #dcdcdc;
+}
+
+.collapse .navbar-nav .nav-item:hover{
+	background-color: #24cbd3;
+	color: #fff!important;
+}
+.collapse .navbar-nav .nav-item .nav-link:hover{
+	background-color: #24cbd3;
+	color: #fff!important;
+}
+
+.account .nav-item .nav-link:hover{
+	color: #000;
+}
+
+.account .nav-item .login:hover{
+	color: #24cbd3;
+}
+
+@media screen and (max-width: 575px) {
+	.main_container{
+		width: 100vw;
+	}
+}	
+
+@media screen and (min-width: 576px) {
+	.main_container{
+		width: 85vw;
+	}
+}
+@media screen and (min-width: 992px) {
+	.main_container{
+		width: 70vw;
+	}
+}
+
+.required{
+	color: red;
+}
+
+.license_permit_form .form-control:focus{
+	color: #495057;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none;
+
+	background-color: #F2F2F2!important;
+}
+
+.apply_btn{
+	background-color: #330170;
+	color: #fff;
+}
+.apply_btn:hover{
+	background-color: #290d4c;
+	color: #fff;
+}
+.login_btn{
+	background-color: #330170;
+	color: #fff;
+}
+.login_btn:hover{
+	background-color: #290d4c;
+	color: #fff;
+}
+
+
+.rm_requestlist .accordion .card-header:after {
+  font-family: 'FontAwesome';  
+  content: "\f068";
+  float: right; 
+}
+.rm_requestlist .accordion .card-header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\f067"; 
+}
+.rm_requestlist table thead{
+	background-color:#24cbd3;
+}
+.rm_requestlist table td{
+	vertical-align: middle;
+}
+
+
